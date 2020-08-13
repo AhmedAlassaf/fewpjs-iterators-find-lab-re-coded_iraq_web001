@@ -5,6 +5,6 @@ function testFunc() {
 }
 
 function superbowlWin(arr) {
-  let winCheck = arr.find(el => el.result === "W")
-  return !!winCheck ? winCheck.year : undefined;
+  let winLose = arr.find(el => el.result === "W")
+  return !!winLose ? winLose.year : undefined;
 }
